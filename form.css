@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    position:relative;
+    min-height:100vh;
+    font-family:Felix-titling-normale,sans-serif;
+    background:rgb(211, 211, 211);
+    
+}
+.container{
+                box-shadow:1px 1px 10px rgba(0, 0, 0, 0.315);
+                
+                background:linear-gradient(to top left, rgba(43, 44, 78, 0.911) , rgba(43, 44, 78, 0.856) ),url(1038176-parliament-1454321816-853-640x480.jpg);
+                background-size:cover;
+                background-repeat: no-repeat;
+                width:30%;
+                margin-left:auto;
+                margin-right:auto;
+                margin-top:100px;
+                color:white;
+                padding-top:50px;
+                
+}
+.cont{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+}
+.titles{
+    display:flex;
+    width:50%;
+    
+    justify-content:space-between;
+
+}
+.title{
+    display:inline-block;
+    font-weight:600;
+    font-size:15px;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:3px;
+    
+    position:relative;
+    cursor:pointer;
+    border-bottom:2px solid transparent;
+    color:#e3e3e356;
+}
+
+.in{
+    border-bottom:2px solid rgba(56, 163, 224, 0.699);
+    color:white;
+}
+
+
+.form-cont{
+    position:relative;
+    margin-top:15%;
+}
+form{
+    padding-top:10px;
+    padding-bottom:10px;
+    
+}
+.input-label{
+    display:block;
+    width:50%;
+    margin-left:2%;
+    color:#b2b2b2;
+    margin-bottom:10px;
+    margin-top:10px;
+    font-size:11px;
+    letter-spacing:1px;
+}
+input{
+    display:block;
+}
+.input{
+    border-radius:15px;
+    border:none;
+    background:#e3e3e32c;
+    padding-top:5px;
+    padding-bottom:5px;
+    width:100%;
+    padding-left:15px;
+    color:white;
+    font-weight:600;
+}
+.submit{
+    margin-top:30px;
+    width:100%;
+    background:#1762ee;
+    color:white;
+    text-align:center;
+    border-radius:15px;
+    border:none;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-weight:600;
+    font-size:11px;
+
+}
+hr{
+    height:1px;
+    margin-top:100px;
+    background:#717595;
+    border:none;
+}
+.forgot{
+    display:block;
+    margin-top:30px;
+    color:#717595;
+    text-align:center;
+    text-decoration:none;
+    font-size:11px;
+    margin-bottom:50px;
+}
+
+.SIGNUP{
+    display:none;
+    
+}
+.SIGNUP .submit{
+    margin-bottom:30px;
+}
